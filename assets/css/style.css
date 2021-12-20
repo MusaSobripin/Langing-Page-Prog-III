@@ -1,0 +1,41 @@
+:root{
+    --cor_principal: white;
+    --cor_secundaria: rgb(0, 0, 170);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Montserrat', sans-serif;
+    color: var(--cor_secundaria);
+    background-color: var(--cor_principal);
+}
+
+h1{
+    font-size: 1.6rem;
+}
+
+p{
+    font-size: 1.2rem;
+    color: black;
+}
+
+section{
+    width: 100vh;
+}
+
+
+/* MENU */
+
+/* INTRODUCAO */
+
+/* IDENTIDADE VISUAL */
+
+/* SOBRE NOS */
+
+/* RESPONSIVIDADE */
