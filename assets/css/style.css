@@ -42,6 +42,7 @@ a:hover{
     width: 8rem;
 }
 #header{
+    z-index: 1;
     position: fixed;
     width: 100%;
     background-color: rgb(84, 87, 87);
@@ -132,7 +133,63 @@ a:hover{
 }
 /* INTRODUCAO */
 
+.intro{
+    margin-top: 6rem;
+    position: absolute;
+}
+
 /* IDENTIDADE VISUAL */
+
+.identidade{
+    position: absolute;
+    margin-top: 35rem;
+}
+#paragrafoIV{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+#paragrafo2IV{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 14rem;
+}
+
+.identidadeT{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(0,0,170);
+}
+
+.linha{
+    display: grid;
+    margin: 0 auto;
+    max-width: 1200px;
+    grid-template-areas: "coluna coluna coluna";
+    grid-gap: 5px;
+    padding: 0px 10px 0px 10px;
+    justify-items: center;
+    
+}
+
+.linha2{
+    display: grid;
+    margin: 0 auto;
+    max-width: 1200px;
+    grid-template-areas: "coluna2 coluna2 coluna2";
+    grid-gap: 5px;
+    padding: 0px 10px 0px 10px;
+    justify-items: center;
+    
+}
+
+.img{
+    width: 100%;
+    
+}
+
 
 /* SOBRE NOS */
 
