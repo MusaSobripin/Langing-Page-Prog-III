@@ -43,7 +43,7 @@ a:hover{
 }
 #header{
     z-index: 1;
-    position: fixed;
+
     width: 100%;
     background-color: rgb(84, 87, 87);
     height: 5rem;
@@ -70,7 +70,7 @@ a:hover{
 
 @media(max-width: 650px) {
     #btn-mobile{
-        display: block;
+        display:inline;
     }
     #menu{
         display: block;
@@ -133,10 +133,63 @@ a:hover{
 }
 /* INTRODUCAO */
 
-.intro{
+#home .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+  }
+  
+  .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+   
+  }
+  
+  .grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+  
+  .section {
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  .section .title {
+    margin-bottom: 1rem;
+  }
+  
+  /* ---- Home */
+  #home {
+    overflow: hidden;
     margin-top: 6rem;
-    position: absolute;
-}
+  }
+  
+  #home .container {
+    margin: 0;
+  }
+  
+  #home .image {
+    position: relative;
+    right: 1.5rem;
+  }
+  
+  
+  
+  #home .image img {
+    position: relative;
+  }
+  
+  #home .text {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+  }
+  
+  #home .text p {
+    margin-bottom: 2rem;
+  }
 
 /* IDENTIDADE VISUAL */
 
