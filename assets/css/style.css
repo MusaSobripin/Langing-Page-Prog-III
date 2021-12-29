@@ -140,9 +140,10 @@ a:hover{
 
 /* IDENTIDADE VISUAL */
 
-.identidade{
+.iden{
     position: absolute;
     margin-top: 35rem;
+    align-items: center;
 }
 #paragrafoIV{
     font-family: Arial, Helvetica, sans-serif;
@@ -154,7 +155,6 @@ a:hover{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: black;
-    margin-top: 14rem;
 }
 
 .identidadeT{
@@ -166,7 +166,6 @@ a:hover{
 .linha{
     display: grid;
     margin: 0 auto;
-    max-width: 1200px;
     grid-template-areas: "coluna coluna coluna";
     grid-gap: 5px;
     padding: 0px 10px 0px 10px;
@@ -177,7 +176,6 @@ a:hover{
 .linha2{
     display: grid;
     margin: 0 auto;
-    max-width: 1200px;
     grid-template-areas: "coluna2 coluna2 coluna2";
     grid-gap: 5px;
     padding: 0px 10px 0px 10px;
@@ -189,8 +187,6 @@ a:hover{
     width: 100%;
     
 }
-
-
 /* SOBRE NOS */
 
 /* RESPONSIVIDADE */
