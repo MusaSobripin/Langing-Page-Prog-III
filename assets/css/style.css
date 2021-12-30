@@ -195,20 +195,22 @@ a:hover{
 /* IDENTIDADE VISUAL */
 
 .identidade{
-    position: absolute;
+    position: relative;
     margin-top: 35rem;
+    
 }
 #paragrafoIV{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: black;
+    margin-top: 5rem;
 }
 
 #paragrafo2IV{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: black;
-    margin-top: 14rem;
+    margin-top: 2rem;
 }
 
 .identidadeT{
@@ -218,30 +220,45 @@ a:hover{
 }
 
 .linha{
-    display: grid;
-    margin: 0 auto;
-    max-width: 1200px;
-    grid-template-areas: "coluna coluna coluna";
-    grid-gap: 5px;
-    padding: 0px 10px 0px 10px;
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+   
     
 }
 
-.linha2{
-    display: grid;
-    margin: 0 auto;
-    max-width: 1200px;
-    grid-template-areas: "coluna2 coluna2 coluna2";
-    grid-gap: 5px;
-    padding: 0px 10px 0px 10px;
-    justify-items: center;
+.coluna{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
-.img{
+.coluna img{
+    margin-top: 10px;
+    vertical-align: middle;
     width: 100%;
+}
+
+/* Responsividade da identidade visual*/
+
+@media screen and (max-width: 800px) {
+
+    .coluna{
+        flex: 50%;
+        max-width: 50%;
+    }
     
+}
+
+@media screen and (max-width: 600px){
+
+    .coluna{
+        flex: 80%;
+        max-width: 80%;
+    }
 }
 
 
