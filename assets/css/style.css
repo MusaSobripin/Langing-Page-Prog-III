@@ -43,7 +43,8 @@ a:hover{
 }
 #header{
     z-index: 1;
-    
+    position: fixed;
+    margin-top: -6rem;
     width: 100%;
     background-color: rgb(84, 87, 87);
     height: 5rem;
@@ -69,8 +70,8 @@ a:hover{
 }
 
 @media(max-width: 650px) {
-    #btn-mobile, .section{
-        display: inline;
+    #btn-mobile{
+        display:inline;
     }
     #menu{
         display: block;
@@ -132,6 +133,7 @@ a:hover{
     }
 }
 /* INTRODUCAO */
+
 #home .container {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -190,18 +192,11 @@ a:hover{
     margin-bottom: 2rem;
   }
 
- 
-
-  
-  
-  
-
 /* IDENTIDADE VISUAL */
 
-.iden{
+.identidade{
     position: absolute;
-    margin-top: 300px;
-    align-items: center;
+    margin-top: 35rem;
 }
 #paragrafoIV{
     font-family: Arial, Helvetica, sans-serif;
@@ -213,6 +208,7 @@ a:hover{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: black;
+    margin-top: 14rem;
 }
 
 .identidadeT{
@@ -224,6 +220,7 @@ a:hover{
 .linha{
     display: grid;
     margin: 0 auto;
+    max-width: 1200px;
     grid-template-areas: "coluna coluna coluna";
     grid-gap: 5px;
     padding: 0px 10px 0px 10px;
@@ -234,6 +231,7 @@ a:hover{
 .linha2{
     display: grid;
     margin: 0 auto;
+    max-width: 1200px;
     grid-template-areas: "coluna2 coluna2 coluna2";
     grid-gap: 5px;
     padding: 0px 10px 0px 10px;
@@ -245,6 +243,8 @@ a:hover{
     width: 100%;
     
 }
+
+
 /* SOBRE NOS */
 
 /* RESPONSIVIDADE */
