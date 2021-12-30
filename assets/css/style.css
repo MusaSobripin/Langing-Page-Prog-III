@@ -43,7 +43,8 @@ a:hover{
 }
 #header{
     z-index: 1;
-
+    position: fixed;
+    margin-top: -6rem;
     width: 100%;
     background-color: rgb(84, 87, 87);
     height: 5rem;
