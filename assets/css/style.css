@@ -33,7 +33,23 @@ a{
 section{
     width: 100vh;
 }
-/* MENU */
+
+.hr {
+    border: 0;
+    border-top: 1px solid var(--cor_secundaria);
+    margin-top: auto;
+    
+  }
+
+.divisao {
+    height: 1px;
+    background: linear-gradient(
+      100deg,
+      hsl(var(--corPadrao)),
+    );
+  }
+
+/* ---------------------------------------- MENU ----------------------------------------  */
 a:hover{
     background: rgba(99, 100, 100, 0.486);
 }
@@ -69,6 +85,144 @@ a:hover{
     display: none;
 }
 
+/* ----------------------------------------  INTRODUCAO ----------------------------------------  */
+
+#home .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+  }
+  
+  .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+   
+  }
+  
+  .grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+  
+  .section {
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  .section .title {
+    margin-bottom: 1rem;
+  }
+  
+  #home {
+    overflow: hidden;
+    margin-top: 6rem;
+  }
+  
+  #home .container {
+    margin: 0;
+  }
+  
+  #home .image {
+    position: relative;
+    right: 1.5rem;
+  }  
+  
+  #home .image img {
+    position: relative;
+  }
+  
+  #home .text {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+  }
+  
+  #home .text p {
+    margin-bottom: 2rem;
+  }
+
+/* ----------------------------------------  IDENTIDADE VISUAL ----------------------------------------  */
+
+#identidade{
+    position: relative;
+    margin-top: auto;
+}
+#paragrafoIV{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    margin-top: 5rem;
+}
+
+#paragrafo2IV{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    margin-top: 2rem;
+}
+
+.identidadeT{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(0,0,170);
+}
+
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;   
+}
+
+.coluna{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.coluna img{
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* ----------------------------------------  SOBRE NOS ----------------------------------------  */
+#sobre-nos{
+    position: relative;
+    text-align: center;
+    margin-top: auto;
+  }
+
+  #sobre-nos .text {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+  }
+
+  #contatos .grid {
+    gap: 4rem;
+  }
+  
+  #contatos .text p {
+    margin-bottom: 2rem;
+  }
+  
+  #contatos .listContatos {
+    display: grid;
+    gap: 2rem;
+  }
+  
+/* ----------------------------------------  FOOTER ----------------------------------------  */
+  footer{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+/* ----------------------------------------  RESPONSIVIDADE ----------------------------------------  */
 @media(max-width: 650px) {
     #btn-mobile{
         display:inline;
@@ -132,119 +286,9 @@ a:hover{
         top: -7px;
     }
 }
-/* INTRODUCAO */
 
-#home .container {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-
-  }
-  
-  .container {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-   
-  }
-  
-  .grid {
-    display: grid;
-    gap: 1.5rem;
-  }
-  
-  .section {
-    margin-left: auto;
-    margin-right: auto;
-  
-  }
-  
-  .section .title {
-    margin-bottom: 1rem;
-  }
-  
-  /* ---- Home */
-  #home {
-    overflow: hidden;
-    margin-top: 6rem;
-  }
-  
-  #home .container {
-    margin: 0;
-  }
-  
-  #home .image {
-    position: relative;
-    right: 1.5rem;
-  }
-  
-  
-  
-  #home .image img {
-    position: relative;
-  }
-  
-  #home .text {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    text-align: center;
-  }
-  
-  #home .text p {
-    margin-bottom: 2rem;
-  }
-
-/* IDENTIDADE VISUAL */
-
-.identidade{
-    position: relative;
-    margin-top: 35rem;
-    
-}
-#paragrafoIV{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    color: black;
-    margin-top: 5rem;
-}
-
-#paragrafo2IV{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    color: black;
-    margin-top: 2rem;
-}
-
-.identidadeT{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: rgb(0,0,170);
-}
-
-.linha{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-   
-    
-}
-
-.coluna{
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-.coluna img{
-    margin-top: 10px;
-    vertical-align: middle;
-    width: 100%;
-}
-
-/* Responsividade da identidade visual*/
-
-@media screen and (max-width: 800px) {
+ /* Responsividade da identidade visual*/
+  @media screen and (max-width: 800px) {
 
     .coluna{
         flex: 50%;
@@ -260,8 +304,3 @@ a:hover{
         max-width: 80%;
     }
 }
-
-
-/* SOBRE NOS */
-
-/* RESPONSIVIDADE */
