@@ -18,6 +18,7 @@ body{
 
 h1{
     font-size: 1.6rem;
+    text-align: center;
 }
 
 p{
@@ -100,11 +101,12 @@ a:hover{
   }
   
   .grid {
-    display: inline;
+    display: grid;
     gap: 1.5rem;
   }
   
   .section {
+    margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -136,7 +138,7 @@ a:hover{
   
   #home .text {
     margin-top: auto;
-    text-align: center;
+    text-align: justify;
   }
   
   #home .text p {
@@ -200,7 +202,7 @@ a:hover{
 
   #sobre-nos .text {
     margin-top: auto;
-    text-align: center;
+    text-align: justify;
   }
   
   #equipes .container {
