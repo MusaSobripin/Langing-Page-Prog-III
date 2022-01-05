@@ -354,11 +354,14 @@ a:hover{
     #sobre-nos{
       display: grid;
       grid-auto-flow: column;
+      margin-top: auto;
+      text-align: center;
     }
 
     #home{
       display: grid;
       grid-auto-flow: column;
+      text-align: center;
     }
 }
 
